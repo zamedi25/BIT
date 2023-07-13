@@ -1,0 +1,82 @@
+:root {
+
+    --maindark-bg-color: #202124;
+    --main-bg-color: #ffffff;
+    --secondary-color: #f7f6f6;
+    --bs-btn-font-weight: 600;
+}
+
+/* .btn-bd-primary {
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: var(--bd-violet-bg);
+    --bs-btn-border-color: var(--bd-violet-bg);
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: #{shade-color($bd-violet, 10%)};
+    --bs-btn-hover-border-color: #{shade-color($bd-violet, 10%)};
+    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
+    --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};
+  } */
+
+.body {
+    background-color: var(--main-bg-color); 
+}
+
+.navbar {
+    background-color: var(--main-bg-color);
+    border-bottom: 1px solid var(--secondary-color);
+    height: 62px;
+    margin: 0px 70px;
+}
+
+.navbar-brand img {
+    width: 188px;
+    height: 27px;
+}
+
+.navbar-nav button {
+    background-color: 0;
+    border: none;
+    color: var(--maindark-bg-color);
+
+}
+
+.btnIcon {
+    width: 48px;
+    height: 48px;
+    background-color: transparent;
+
+}
+
+.btnIcon:hover {
+    background-color: var(--secondary-color);
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 62px;
+    border-radius: 0%;
+    font-weight: var(--bs-btn-font-weight);
+
+}
+
+.btn:hover {
+    background-color: var(--secondary-color);
+}
+
+.collapse {
+    display: flex;
+    justify-content: end;
+}
+
+.dosNav {
+    background-color: var(--main-bg-color);
+    border: 1px solid var(--secondary-color);
+    height: 62px;
+    margin-top: 30px;
+}
